@@ -1,0 +1,18 @@
+# For more info on HTTP files go to https://aka.ms/vs/httpfile
+
+
+
+POST http://localhost:1337/vendors/microsoft/opensource
+Content-Type: application/json
+
+{
+ 
+"name": "ba"
+ 
+}
+
+
+
+###
+GET http://localhost:1337/catalog
+

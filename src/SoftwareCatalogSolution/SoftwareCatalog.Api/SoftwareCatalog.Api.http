@@ -1,0 +1,15 @@
+@SoftwareCatalog.Api_HostAddress = http://localhost:1337
+
+GET {{SoftwareCatalog.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+POST {{SoftwareCatalog.Api_HostAddress}}/vendors
+Content-Type: application/json
+
+{
+  //VendorCreateModel
+}
+
+###

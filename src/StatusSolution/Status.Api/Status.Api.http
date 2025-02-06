@@ -1,0 +1,5 @@
+@Status.Api_HostAddress = http://localhost:1338
+
+GET {{Status.Api_HostAddress}}/status
+
+###
